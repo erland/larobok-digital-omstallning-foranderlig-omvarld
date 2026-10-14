@@ -1,0 +1,29 @@
+name: Release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml lxml
+      - run: python scripts/validate_project.py .
+      - run: python scripts/project_integrity.py verify .
+      - run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-extra texlive-fonts-recommended
+      - run: python scripts/build_book.py
+      - name: Checksums
+        run: cd exports && sha256sum digital-omstallning.pdf digital-omstallning.epub > SHA256SUMS
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            exports/digital-omstallning.pdf
+            exports/digital-omstallning.epub
+            exports/SHA256SUMS

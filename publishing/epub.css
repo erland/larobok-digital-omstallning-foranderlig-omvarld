@@ -1,0 +1,10 @@
+body { line-height: 1.6; } h1,h2,h3 { line-height:1.2; } img { max-width:100%; }
+table { border-collapse:collapse; width:100%; margin:1em 0; }
+thead th { background:#e7eaef; border:1px solid #6b7280; padding:.5em; }
+tbody td { border:1px solid #9ca3af; padding:.45em .5em; vertical-align:top; }
+tbody tr:nth-child(even) { background:#f3f4f6; }
+
+/* Compact two-line chapter headings; navigation remains in EPUB reader index. */
+h1.two-line-chapter { text-align:center; margin:1.1em 0 0.75em; page-break-after:avoid; break-after:avoid; }
+h1.two-line-chapter .chapter-number { display:block; font-size:0.72em; font-weight:500; margin-bottom:0.28em; }
+h1.two-line-chapter .chapter-name { display:block; font-size:1em; line-height:1.2; }
