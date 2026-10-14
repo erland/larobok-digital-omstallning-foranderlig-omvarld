@@ -13,3 +13,16 @@ if data.get('cover_image'):
 for item in data['chapters']:assert (p/item).exists(),item
 assert (p/'docs/kallpolicy.md').exists()
 print('PASS: bokprofil, metadata, kapitelordning och obligatoriska dokument')
+
+# Guard against internal editorial instructions leaking into the published book.
+import re
+for item in data['chapters']:
+    body=(p/item).read_text(encoding='utf-8')
+    forbidden=[
+        r'fortsatta bokarbetet',r'inför färdigställandet',
+        r'inför publicering',r'innan publicering',
+        r'redaktionell (?:anmärkning|notering|kommentar)',
+        r'återstår att (?:faktagranska|verifiera|kontrollera)']
+    for phrase in forbidden:
+        assert not re.search(phrase,body,re.IGNORECASE), f'Intern arbetsnotering i {item}: {phrase}'
+print('PASS: inga kända redaktionella arbetsmarkörer i boktexten')
