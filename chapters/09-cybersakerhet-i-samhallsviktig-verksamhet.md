@@ -102,4 +102,4 @@ Detta kapitel har behandlat hur myndigheten förebygger, upptäcker och hanterar
 
 Cybersäkerhet är en förutsättning för att en samhällsviktig myndighet ska kunna utföra sitt uppdrag pålitligt. NIS2 och den svenska cybersäkerhetslagen (2025:1506), som trädde i kraft den 15 januari 2026, stärker kraven, men det praktiska arbetet måste utgå från verksamhetens beroenden och konsekvenser. Skydd av informationsflöden, verifiering av uppgiftsriktighet och övad incidenthantering är därför centrala delar av säkerhetsarbetet.
 
-Det fortsatta arbetet leder naturligt vidare till nästa kapitel: digital suveränitet och tekniska beroenden. Där blir frågan inte bara hur en tjänst skyddas utan också vem som ytterst kontrollerar dess drift, vidareutveckling och tillgänglighet.
+Cybersäkerhet handlar om att skydda verksamhetens digitala förmågor. Nära sammanhängande är frågan om digital suveränitet: vem som ytterst kontrollerar teknikens drift, vidareutveckling och tillgänglighet. Det perspektivet fördjupas i nästa kapitel.
