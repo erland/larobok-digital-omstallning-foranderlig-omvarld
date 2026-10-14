@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "project_slug": "digital-omstallning-i-en-foranderlig-omvarld",
-  "revision": 36,
-  "parent_revision": 35,
+  "revision": 37,
+  "parent_revision": 36,
   "tracked_files": {
     ".github/workflows/01-validate.yml": "9fc93013dc72faa783a92435ec3654572f81f2a8cdd39b75da1eee47298b3b32",
     ".github/workflows/02-build-preview.yml": "ce64f401c3dab136759d2968f646982442ffef8a2a5859e42a54334684c83489",
     ".github/workflows/03-release.yml": "04b320c1189f4e0fae27dcc529a563d21711c100b643e7a800232a9e2f644faf",
-    "README.md": "ba719f6817db1ab6b6c45c4e66f1ccfa61956ba32025dbd1f2226a526d01ec8b",
+    "README.md": "9d112c83aafafcfa2f0a8d7e8f8374a1e665615421e11d9d70b4a9ab8b376a62",
     "assets/cover/README.md": "21fe62e9112e619be72a9a4d8ddcf92756926653b68dd5ee8681a2ff9dcbe5f2",
     "assets/cover/omslag.png": "3b6e945e0e86c696e81eefbc2d76edb483d2c82eb86c98215758de2a259bfc3f",
     "assets/image-prompts/README.md": "25ef4db93292bfb8cb746e4e49961a0f2c9fa414a15c372b2d2641911846647a",
@@ -91,7 +91,7 @@
     "revision-log.md": "9a9ecc172519b1120db9aea9b50c037784654956da6532c7160b412e4632b8e0",
     "scripts/build_book.py": "470724dc665cd04de0180d6ffc496909664c7c194bed395661dc5a6b18231172",
     "scripts/export-book.py": "fd18f07c3391e12847a64726c6fd8018b74d5d333cfe5f8385066530d624c38e",
-    "scripts/project_integrity.py": "62aad64e4f83945e17b03a6bca49a1f17dbd396f197d1c8ffc40b6ac6e9948c4",
+    "scripts/project_integrity.py": "8d6dbe6a723ca55f91c1d53ae0e506d96497098d9a31cf39908a20ae576b96b7",
     "scripts/validate_project.py": "e4b2c551b80e8726d56a40d1b04206777ed3afb66cf369aff4b4f3a2fc8cba91"
   },
   "last_operation": "revise"
