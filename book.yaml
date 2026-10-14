@@ -1,0 +1,46 @@
+title: Digital omställning i en föränderlig omvärld
+subtitle: Från europeiska regelverk och teknikutveckling till strategiska vägval i samhällsviktig myndighetsverksamhet
+author: Erland Lindmark
+language: sv
+book_kind: factbook
+book_type: analytical_factbook
+difficulty: advanced
+audience: Chefer, strateger, verksamhetsutvecklare, jurister, informations- och it-arkitekter, säkerhetsansvariga samt operativa medarbetare i samhällsviktig statlig verksamhet.
+edition: '1'
+version: "0.4.3"
+date: '2026-10-14'
+rights: All rights reserved
+publisher: ''
+cover_image: assets/cover/omslag.png
+identifier: ''
+subject: Digital omställning i offentlig förvaltning
+description: Analytisk faktabok med eSams radarbild februari 2026 som utgångspunkt och verksamhetsnära analys för en myndighet med kontroll-, uppbörds- och brottsbekämpningsuppdrag.
+project_slug: digital-omstallning-i-en-foranderlig-omvarld
+chapters:
+- chapters/00-inledning.md
+- chapters/01-den-digitala-omstallningens-nya-forutsattningar.md
+- chapters/02-en-myndighet-i-ett-sammanlankat-samhalle.md
+- chapters/03-fran-omvarldsbevakning-till-strategisk-formaga.md
+- chapters/04-artificiell-intelligens-i-myndighetsverksamhet.md
+- chapters/05-ai-rattssakerhet-och-mansklig-kontroll.md
+- chapters/06-data-som-strategisk-tillgang.md
+- chapters/07-datadelning-over-organisatoriska-och-nationella-granser.md
+- chapters/08-digital-identitet-behorighet-och-tillit.md
+- chapters/09-cybersakerhet-i-samhallsviktig-verksamhet.md
+- chapters/10-digital-suveranitet-och-tekniska-beroenden.md
+- chapters/11-beredskap-och-operativ-kontinuitet.md
+- chapters/12-framtidens-digitala-kontrollverksamhet.md
+- chapters/13-brottsbekampning-och-informationsdriven-analys.md
+- chapters/14-digitala-tjanster-i-gransoverskridande-floden.md
+- chapters/15-arkitektur-styrning-och-forandringsformaga.md
+- chapters/16-strategiska-vagval-20262030.md
+- chapters/17-kallor-och-lasanvisning.md
+exports:
+  epub:
+    enabled: true
+    include_text_toc: false
+    toc_depth: 1
+  pdf:
+    enabled: true
+    include_toc_before_introduction: true
+    toc_depth: 1

@@ -1,0 +1,24 @@
+name: Build Preview
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml lxml
+      - run: python scripts/validate_project.py .
+      - run: python scripts/project_integrity.py verify .
+      - run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-extra texlive-fonts-recommended
+      - run: python scripts/build_book.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: book-preview
+          path: |
+            exports/digital-omstallning.pdf
+            exports/digital-omstallning.epub
