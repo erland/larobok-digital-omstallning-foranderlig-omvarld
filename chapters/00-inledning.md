@@ -18,4 +18,4 @@ Fallbeskrivningarna är konstruerade exempel, inte beskrivningar av en enskild m
 
 ## Källor, analys och osäkerhet
 
-Vi skiljer genomgående på dokumenterade sakförhållanden, analyserade konsekvenser och tänkbara scenarier. Rapporten från februari 2026 är en historisk baslinje – inte ett påstående om att varje initiativ har samma status vid denna boks publicering. Rättsakter, tidplaner och myndighetsuppdrag måste därför verifieras inför färdigställandet. Boken är en oberoende analys och inte en officiell tolkning från eSam eller någon myndighet.
+Vi skiljer genomgående på dokumenterade sakförhållanden, analyserade konsekvenser och tänkbara scenarier. Rapporten från februari 2026 utgör bokens historiska utgångspunkt. Beskrivningar av regelverk, myndighetsuppdrag och planerade initiativ bygger på det kunskapsläge som förelåg till och med den 14 oktober 2026. Förutsättningar och tidplaner kan därefter ha förändrats. Boken är en oberoende analys och inte en officiell tolkning från eSam eller någon myndighet.

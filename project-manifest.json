@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "project_slug": "digital-omstallning-i-en-foranderlig-omvarld",
-  "revision": 37,
-  "parent_revision": 36,
+  "revision": 38,
+  "parent_revision": 37,
   "tracked_files": {
     ".github/workflows/01-validate.yml": "9fc93013dc72faa783a92435ec3654572f81f2a8cdd39b75da1eee47298b3b32",
     ".github/workflows/02-build-preview.yml": "ce64f401c3dab136759d2968f646982442ffef8a2a5859e42a54334684c83489",
@@ -13,8 +13,8 @@
     "assets/image-prompts/README.md": "25ef4db93292bfb8cb746e4e49961a0f2c9fa414a15c372b2d2641911846647a",
     "assets/images/README.md": "f154a4ec3e40a1fb00c4142eb01c12aecc6af724c8497778f931763ef6905f83",
     "book.yaml": "c4412cd7801a2ba90a12d5e4974a630f4849eb99b19b6806fa1bc7f6c35b2fbc",
-    "chapters/00-inledning.md": "48befca4f1f3856ea8f8b23d4b84407b805fe7e4df17890ab28622cc9295c59f",
-    "chapters/01-den-digitala-omstallningens-nya-forutsattningar.md": "d61c782d6d49924c269f60d3a033d55b8d2555aee00d18edfcd4edbb58dfc1e2",
+    "chapters/00-inledning.md": "71dea68c0f6c36340c4766c5b81b7f390f3c4644e076db146a4115aecb282888",
+    "chapters/01-den-digitala-omstallningens-nya-forutsattningar.md": "1fb9b984fc88378d872633c915b6dea3fc004c3ab90e7b0a5f4f4c2eda450584",
     "chapters/02-en-myndighet-i-ett-sammanlankat-samhalle.md": "a1a84fadced089ee4112c2fe35e5166642bec0fcf512a50b8ff75e9b7072acdd",
     "chapters/03-fran-omvarldsbevakning-till-strategisk-formaga.md": "8a94cb7deef55da442dc7c70b0b7f21faa4fedea3a10eb16f21fd352a1d2293e",
     "chapters/04-artificiell-intelligens-i-myndighetsverksamhet.md": "c8b4eb301ba0d1f22d37a4c17d0c7eceba9ab128e28e974b93b18e4d04b2c4ae",
@@ -22,7 +22,7 @@
     "chapters/06-data-som-strategisk-tillgang.md": "03afe13468bfde577a72329e5bd2cb3d4a77f862e2a865ffe76b48278323e266",
     "chapters/07-datadelning-over-organisatoriska-och-nationella-granser.md": "0a7a09cc83dc0220941630cd437677d7d9971291499da0d8b73a8697f506b956",
     "chapters/08-digital-identitet-behorighet-och-tillit.md": "c8fc3447291e9d8584b2ad373cae4a8decf86c2b07a99106fa248a30401c6ef6",
-    "chapters/09-cybersakerhet-i-samhallsviktig-verksamhet.md": "852b5c705d23e65c6dd26f6730530b60d19d883077ecb4834dd2c930816ca742",
+    "chapters/09-cybersakerhet-i-samhallsviktig-verksamhet.md": "3ae2f56fcc404cc40470c77873bc30d81c16bd838175d6abb4eb2b32db80ef10",
     "chapters/10-digital-suveranitet-och-tekniska-beroenden.md": "110da0c46b7e78e330cd3a8bfc4b7f792b07387d23d2fd4b7ce304a4c9b60250",
     "chapters/11-beredskap-och-operativ-kontinuitet.md": "f91d1981412643e5b888b62810a3bfc98a25bb19ad6d8514176438254b284f8e",
     "chapters/12-framtidens-digitala-kontrollverksamhet.md": "6ac4bc0caba6630f5a4e23f1fb9c2fce5059d49f0152d627501936102d24bcf2",
@@ -92,7 +92,7 @@
     "scripts/build_book.py": "470724dc665cd04de0180d6ffc496909664c7c194bed395661dc5a6b18231172",
     "scripts/export-book.py": "fd18f07c3391e12847a64726c6fd8018b74d5d333cfe5f8385066530d624c38e",
     "scripts/project_integrity.py": "8d6dbe6a723ca55f91c1d53ae0e506d96497098d9a31cf39908a20ae576b96b7",
-    "scripts/validate_project.py": "e4b2c551b80e8726d56a40d1b04206777ed3afb66cf369aff4b4f3a2fc8cba91"
+    "scripts/validate_project.py": "e9c5e8a8e6f98e17f6bbcc382038cb936ec3222ef7d64a050c64e104bfab6f9a"
   },
   "last_operation": "revise"
 }
